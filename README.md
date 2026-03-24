@@ -6,7 +6,7 @@
 ### 1. 데이터가져오기
 - 코랩에서 다음 명령어를 사용하여 가져올 수 있습니다.
 ```python
-!git clone https://github.com/thiskorea81/ai_basic_datasets.git
+!git clone https://github.com/jotori08/Iris.git
 ```
 데이터 경로는 다음과 같습니다.
 
@@ -17,8 +17,8 @@
 ### 2. 데이터셋 불러오기
 ```python
 import pandas as pd
-df1 = pd.read_csv('/content/ai_basic_datasets/Iris1.csv', encoding='cp949')
-df2 = pd.read_csv('/content/ai_basic_datasets/Iris2.csv', encoding='cp949')
+df1 = pd.read_csv('/content/Iris/Iris1.csv', encoding='cp949')
+df2 = pd.read_csv('/content/Iris/Iris2.csv', encoding='cp949')
 df1.head() # dataset 맨 위 5개 데이터 확인하기
 ```
 ### 3. 두 개의 데이터 합치기
